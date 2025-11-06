@@ -1,0 +1,11 @@
+ESP Exception Decodder
+
+New:
+https://github.com/dankeboy36/esp-exception-decoder?tab=readme-ov-file
+C:\Users\<username>\.arduinoIDE\plugins
+Ctrl + Shift + P -> Search ESP Excep...
+Read from bottom to top
+The Bottom Frame is where the program started its journey (entry point).
+The Top Frame is where the crash occurred (the final function in execution before the fault).
+
+*When tracing the root cause of the problem does not work, try Closing the Arduino IDE, Re-opening and Re-compiling everything
