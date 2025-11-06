@@ -1,0 +1,31 @@
+static const char GUI_Root_Endpoint[] PROGMEM = "GET / ";
+static const char GUI_Alarms_Endpoint[] PROGMEM = "GET /alarms ";
+static const char GUI_Config_Change_Endpoint[] PROGMEM = "GET /config_change?";
+static const char GUI_Historical_Temp_Endpoint[] PROGMEM = "GET /historical_temp ";
+static const char GUI_History_Endpoint[] PROGMEM = "GET /history ";
+static const char GUI_Admin_Endpoint[] PROGMEM = "GET /admin ";
+static const char GUI_Config_Endpoint[] PROGMEM = "GET /config ";
+static const char GUI_Sys_Params_Endpoint[] PROGMEM = "GET /sys_params ";
+static const char GUI_Relay_status_on_Endpoint[] PROGMEM = "GET /relay_status=on ";
+static const char GUI_Relay_status_off_Endpoint[] PROGMEM = "GET /relay_status=off ";
+static const char GUI_Relay_status_auto_Endpoint[] PROGMEM = "GET /relay_status=auto ";
+static const char GUI_Restart_Endpoint[] PROGMEM = "GET /restart ";
+static const char GUI_Update_Endpoint[] PROGMEM = "GET /update ";
+static const char GUI_Read_Memory_Endpoint[] PROGMEM = "GET /read_and_list_memory ";
+static const char GUI_Routes_Endpoint[] PROGMEM = "GET /routes ";
+static const char GUI_Tools_Endpoint[] PROGMEM = "GET /operation?";
+
+static const char API_Routes_Endpoint1[] PROGMEM = "GET /api ";
+static const char API_Routes_Endpoint2[] PROGMEM = "GET /api/ ";
+static const char API_Refresh_Endpoint[] PROGMEM = "GET /api/refresh ";
+static const char API_Status_Endpoint[] PROGMEM = "GET /api/status ";
+static const char API_External_Components_Status_Endpoint[] PROGMEM = "GET /api/ext_comp_status ";  //healtcheck route
+static const char API_Alarms_Endpoint[] PROGMEM = "GET /api/alarms ";
+static const char API_Historical_Temp_Endpoint[] PROGMEM = "GET /api/historical_temp ";
+static const char API_History_Endpoint[] PROGMEM = "GET /api/history ";
+static const char API_Relay_status_on_Endpoint[] PROGMEM = "GET /api/relay_status=on ";
+static const char API_Relay_status_off_Endpoint[] PROGMEM = "GET /api/relay_status=off ";
+static const char API_Relay_status_auto_Endpoint[] PROGMEM = "GET /api/relay_status=auto ";
+static const char API_Restart_Endpoint[] PROGMEM = "GET /api/restart ";
+static const char API_Update_Endpoint[] PROGMEM = "GET /api/update ";
+static const char API_Push_Notification_Endpoint[] PROGMEM = "POST /api/push_notification ";
